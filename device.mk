@@ -501,3 +501,6 @@ PRODUCT_COPY_FILES += \
 
 # Vendor
 $(call inherit-product, vendor/xiaomi/onyx/onyx-vendor.mk)
+
+# Vendor MiuiCamera
+$(call inherit-product, device/xiaomi/onyx-miuicamera/device.mk)
