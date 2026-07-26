@@ -222,3 +222,19 @@ vendor.usb.use_gadget_hal=1
 
 # WiFi
 wifi.aware.interface=wifi-aware0
+
+# Audio — Dolby Atmos
+ro.vendor.audio.dolby.dax.support=true
+ro.vendor.audio.dolby.dax.version=DAX3_3.12.0.8_r1
+ro.vendor.audio.dolby.dax.game.enable=true
+ro.vendor.audio.dolby.surround.enable=true
+ro.vendor.audio.dolby.vision.support=true
+ro.vendor.audio.dolby.spatial.profile=dynamic
+persist.vendor.audio.effectimplenter=dolby
+vendor.audio.dolby.control.support=true
+
+# Display — Dolby Vision
+ro.vendor.display.dolbyvision.support=true
+
+# Dolby backend selector
+persist.sys.lunaris.dolby.backend=aidl

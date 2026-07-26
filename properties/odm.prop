@@ -123,3 +123,9 @@ ro.vendor.touch.touchscheduler.enable=true
 
 # SKU
 import /odm/etc/odm_${ro.boot.hwc}.prop
+
+# Dolby Vision & Audio
+persist.vendor.audio.effectimplenter=dolby
+ro.vendor.audio.dolby.spatial.profile=dynamic
+debug.config.media.video.dolby_vision_suports=true
+debug.media.video.dolby_vision_dvs_support=true
