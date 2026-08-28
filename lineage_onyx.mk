@@ -7,14 +7,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Infinity-X stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+# Inherit some common MistOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from onyx device
 $(call inherit-product, device/xiaomi/onyx/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := infinity_onyx
+PRODUCT_NAME := lineage_onyx
 PRODUCT_DEVICE := onyx
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
@@ -31,13 +31,13 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Infinity-X stuff
+# MistOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_BLUR := true
 TARGET_DISABLE_EPPE := true
+TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := true
-WITH_GAPPS := true
+WITH_GMS := true
 
 # Maintainer & Build type
-INFINITY_BUILD_TYPE := OFFICIAL
-INFINITY_MAINTAINER := SharmagRit
+MISTOS_MAINTAINER := SharmagRit
+

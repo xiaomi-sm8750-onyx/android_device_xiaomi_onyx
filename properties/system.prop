@@ -19,6 +19,16 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 ro.media.recorder-max-base-layer-fps=60
 ro.media.xml_variant.profiles=_tuna_v0
 
+# MistOS
+ro.mist.display=2772 x 1280, 120 hz
+ro.mist.battery=6550mah + 7550mah
+ro.mist.soc=Snapdragon® 8s Gen 4
+ro.mist.camera=64MP + 08MP
+ro.mist.front=20MP
+ro.mist.platform=SM8375
+ro.mist.screen=6.83' Amoled
+ro.mist.device.name=Poco F7
+
 # QTI
 ro.vendor.qti.va_aosp.support=1
 
